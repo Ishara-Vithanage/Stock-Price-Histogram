@@ -72,7 +72,6 @@ def preprocess_data(file_name):
     return data
 
 def analyze_data(data):
-    """Visualize stock price, moving averages, and volatility."""
     # Data Visualization
     plt.figure(figsize=(14, 10))
 
@@ -98,7 +97,6 @@ def analyze_data(data):
     plt.show()
 
 def main():
-    """Main function to execute the workflow."""
     # Define the ticker symbol and period for stock data
     start_date = input("Enter the start date (YYYY-MM-DD): ")
     end_date = input("Enter the end date (YYYY-MM-DD): ")
