@@ -69,5 +69,4 @@ def main():
     visualize_trends(data, symbol)
 
 
-if __name__ == '__main__':
-    main()
+main()
